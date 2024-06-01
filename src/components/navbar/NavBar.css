@@ -2,11 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 1rem;
+    padding: 0 1rem;
 }
 
 .nav-item{
     list-style: none;
-    padding: 5px;
+    padding: 0;
 }
 
 .nav-item a{
