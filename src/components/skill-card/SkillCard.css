@@ -1,0 +1,30 @@
+.skill-card{
+    border-style: solid;
+    background-color: #6C22A6;
+    aspect-ratio: 4/3;
+    width: 11.5vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    padding: 0.3rem;
+}
+
+.skill-card:hover{
+    scale: 1.1;
+    background-color: rgb(86.4 , 27.2 , 132.8); /* 108, 34, 166 */
+    transition: 10ms ease;
+    cursor: pointer;
+}
+
+.skill-icon{
+    display: flex;
+    font-size: 5rem;
+    color: white;
+}
+
+.skill-name{
+    font-weight: bolder;
+}

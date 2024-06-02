@@ -1,0 +1,36 @@
+.skills-parent{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.skill-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.skills-heading{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.skills-heading-text{
+    position: relative;
+}
+
+.skills-heading-text::after {
+    content: "";
+    width: 10rem;
+    height: 2.5px;
+    margin-left: 1rem;
+    background-color: currentColor;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+}

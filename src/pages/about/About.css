@@ -1,0 +1,66 @@
+.about-parent{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    gap: 0.5rem;
+}
+
+.about-heading{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.about-heading-text{
+    position: relative;
+}
+
+.about-heading-text::after {
+    content: "";
+    
+    width: 10rem;
+    height: 2.5px;
+
+    margin-left: 1rem;
+    
+    background-color: currentColor;
+
+    position: absolute;
+    top: 50%;
+    left: 100%;
+
+    transform: translateY(-50%);
+}
+
+
+.about-content{
+    display: flex;
+    gap: 1rem;
+}
+
+.about-img{
+    aspect-ratio: 16/9;
+    width: 60vw;
+    height: auto;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.about-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+}
+
+.about-text h1 {
+    margin: 0;
+}

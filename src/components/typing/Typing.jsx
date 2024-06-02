@@ -37,7 +37,7 @@ function Typing({text , typingSpeed , deletingSpeed , duration}) {
 
   return (
     <div className='typing-effect'>
-        <h1 className='caret'>I am <span style={{color:'green'}}>{displayedText}</span></h1>
+        <h1 className='caret' style={{color:'white'}}>I am <span style={{color:'#96E9C6'}}>{displayedText+"|"}</span></h1>
     </div>
   )
 }

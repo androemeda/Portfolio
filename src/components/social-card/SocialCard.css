@@ -1,0 +1,12 @@
+.social-card{
+    aspect-ratio: 1;
+    width: 4vw;
+    height: auto;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.social-card img{
+    width: 100%;
+    height: 100%;
+}
