@@ -15,7 +15,7 @@ function App() {
     <Router>
       <div className="App">
         <header className='App-header'>
-          <span style={{color : 'black' , fontWeight : 'bold'}}>{kartik}</span>
+          <span style={{color : 'white' , fontWeight : 'bold'}}>{kartik}</span>
           <NavBar />
         </header>
         <Routes>

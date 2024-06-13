@@ -11,3 +11,36 @@
     gap: 2rem;
     margin: 1rem;
 }
+
+.projects-header-text{
+    color: white;
+}
+
+.projects-header{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.projects-header-text{
+    position: relative;
+    color: white;
+    margin: 1rem;
+}
+
+.projects-header-text::after{
+    content: "";
+    width: 10rem;
+    height: 2.5px;
+
+    margin-left: 1rem;
+    
+    background-color: currentColor;
+
+    position: absolute;
+    top: 50%;
+    left: 100%;
+
+    transform: translateY(-50%);
+}

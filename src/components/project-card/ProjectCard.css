@@ -9,8 +9,9 @@
     height: auto;
     overflow: hidden;
     border-style: solid;
-    border-color: black;
+    border-color: #09152C;
     position: relative;
+    border-radius: 0.5rem;
 }
 
 .project-image img{
@@ -54,4 +55,8 @@
 
 .icon:hover{
     scale: 1.2;
+}
+
+.project-name{
+    color: white;
 }

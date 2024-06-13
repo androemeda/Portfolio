@@ -21,6 +21,7 @@
 
 .skills-heading-text{
     position: relative;
+    color: white;
 }
 
 .skills-heading-text::after {

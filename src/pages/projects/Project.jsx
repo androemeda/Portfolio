@@ -39,7 +39,7 @@ function Project() {
   return (
     <div className='project'>
       <div className='projects-header'>
-        <span className='projects-header-text'>ALL PROJECTS WILL COME HERE</span>
+        <span className='projects-header-text'>PROJECTS</span>
       </div>
       <div className='projects-content'>
         {

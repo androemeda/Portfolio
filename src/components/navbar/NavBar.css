@@ -13,14 +13,14 @@
 
 .nav-item a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
 .nav-item a::after{
     content: "";
     display: block;
-    background-color: black;
+    background-color: white;
     width: 0%;
     height: 2px;
     transition: width 0.3s ease;
