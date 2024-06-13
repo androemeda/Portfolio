@@ -10,15 +10,48 @@
     overflow: hidden;
     border-style: solid;
     border-color: black;
+    position: relative;
 }
 
 .project-image img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .project-image:hover{
     cursor: pointer;
+}
 
+.cover {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    position: absolute;
+    z-index: 5;
+}
+
+.project-image:hover .cover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.icon{
+    color: white;
+    font-size: 3em;
+    transition: 0.3s ease;
+}
+
+.icon:hover{
+    scale: 1.2;
 }
