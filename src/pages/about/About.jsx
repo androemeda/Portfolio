@@ -16,9 +16,9 @@ function About() {
         </div>
         <div className='about-text'>
           <h1>HEY THERE</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus pariatur totam tenetur accusamus, iste error itaque eos asperiores, dolore magni aperiam modi, deserunt commodi soluta officiis harum mollitia officia unde?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolore deleniti nobis nam earum optio consequuntur obcaecati doloremque asperiores, dolorem, sapiente, facilis illum animi quidem quaerat. Quam officiis placeat architecto.</p>
-          <span>Happy Coding!</span>
+          <p>My name is Kartik Deshpande.</p>
+          <p>I am a first year student at Scaler School Of Technology. I am parallelly pursuing my BSc in Computer Science from BITS PILANI.</p>
+          <p>I am passionate about Technology. In my free time I love doing questions on leetcode and making projects.</p>
         </div>
       </div>
     </div>

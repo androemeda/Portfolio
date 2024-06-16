@@ -44,7 +44,7 @@ function Home() {
               <img src={myphoto} width={200}></img>
             </div>
             <h1 style={{color : 'white'}}>Hi , My name is</h1>
-            <h1 style={{color : 'black'}}>KARTIK DESHPANDE</h1>
+            <h1 style={{color : 'green'}}>KARTIK DESHPANDE</h1>
             
             <Typing 
                 text={["a coder" , "a developer" , "a tech-enthusiast"]}
