@@ -6,6 +6,7 @@ import blankImage from '../../assets/blank.png'
 import imageEditor from '../../assets/image-editor.jpeg'
 import webScrapper from '../../assets/web-scraper.jpeg'
 import quizApp from '../../assets/quiz-app.png'
+import brickBreaker from '../../assets/brick-breaker.png'
 
 function Project() {
 
@@ -33,6 +34,12 @@ function Project() {
       image : quizApp,
       githubLink : "https://github.com/androemeda/Quiz-App?tab=readme-ov-file",
       deployedLink : "https://androemeda.github.io/Quiz-App/"
+    },
+    {
+      name : "BRICK-BREAKER",
+      image : brickBreaker,
+      githubLink : "https://github.com/androemeda/brick-breaker-game",
+      deployedLink : "https://androemeda.github.io/brick-breaker-game/"
     }
   ];
 
